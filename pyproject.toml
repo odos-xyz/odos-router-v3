@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "odos-router-v3"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "odos_router_v3"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+eth-brownie = "^1.20.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
